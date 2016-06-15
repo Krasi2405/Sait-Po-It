@@ -1,0 +1,42 @@
+
+
+
+@media screen and (max-width: 720px) {
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  
+  nav a {
+    font-size: 1.25em;
+  }
+  
+  p {
+    font-size: 12px 
+  }
+  
+  .two_row {
+    width: 90%; 
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.25em;
+  }
+  
+  
+  nav a {
+    font-size: 1em;
+  }
