@@ -1,3 +1,14 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  padding-left: 0; 
+}
+
+a:hover {
+  text-decoration: none;
+}
 
 /* HEADER */
 
@@ -38,8 +49,8 @@ p {
 
 .selected {
   color: #ddd;
-  font-weight: bold;
   pointer-events: none;
+  font-weight: bold;
   cursor: default;
 }
 
@@ -60,11 +71,11 @@ p {
   background-color: #eee;
 }
 
-.two_row {
+.two_collumn {
   width: 40%;
 }
 
-.three_row {
+.three_collumn {
   width: 23.33%
 }
 
@@ -92,4 +103,23 @@ footer, #jump_up {
   padding-top: 25px;
 }
 
+/* Two-Sided Layout */
 
+.left_side, .right_side {
+  float: left;
+  display: inline;
+  width: 40%;
+}
+
+.right_side {
+  float: right;
+}
+
+.right_side img {
+  border: 2px solid #000;
+}
+
+.right_side ul li {
+  list-style: none;
+  padding: 3px 0;
+}
