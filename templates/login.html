@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form method="POST" action="">
+    {{ form.hidden_tag() }}
+    {% for field in form %}
+        {% if field.errors %}
+            {% for error in field.errors %}
+                <p class = "alert alert-warning">{{ error }}</p>
+            {% endfor %}
+        {% endif %}
+        {{ field(placeholder=field.label.text) }}
+    {% endfor %}
+    <button type="submit" id="submit">Post!</button>
+</form>
+{% endblock %}

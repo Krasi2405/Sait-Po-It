@@ -16,7 +16,7 @@ header {
   text-align: center;
   background: #333333;
   padding-top: 5px;
-  margin-bottom: 50px;
+  padding-bottom: 1px;
 }
 
 h1 {
@@ -58,7 +58,7 @@ p {
 
 .content {
   max-width: 70%;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 
@@ -117,6 +117,7 @@ footer, #jump_up {
 
 .right_side img {
   border: 2px solid #000;
+  width: 100%;
 }
 
 .right_side ul li {
